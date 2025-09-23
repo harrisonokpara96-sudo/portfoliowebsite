@@ -51,7 +51,7 @@ The repository is structured as follows:
 - script.js (JavaScript functionality)
 - README.md (this file)
 
-The site is deployed on GitHub Pages at: []
+The site is deployed on GitHub Pages at: [https://github.com/harrisonokpara96-sudo/portfoliowebsite]
 
 ## Copyright
 
