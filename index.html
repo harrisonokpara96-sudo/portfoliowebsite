@@ -3,135 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nvi Mai - Personal Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Home - Nvi's Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 769px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="css/laptop.css" media="screen and (min-width: 1025px)">
 </head>
 <body>
-    <!-- Header with Navigation -->
     <header>
         <nav>
-            <div class="logo">
-                <h1>Nvi Mai</h1>
-            </div>
-            <ul class="nav-links">
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact Me</a></li>
             </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
         </nav>
     </header>
 
-    <!-- Main Content - Different for each page -->
     <main>
-        <!-- Home Page Content -->
-        <section id="home" class="page active">
-            <div class="hero">
-                <div class="hero-content">
-                    <h2>Hello, I'm Nvi</h2>
-                    <p>Welcome to my personal portfolio website</p>
-                    <a href="about.html" class="btn">Learn More About Me</a>
-                </div>
-            </div>
+        <section id="hero" class="gradient-bg">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Nvi (Nhat Vietnam) - a passionate developer and creative thinker</p>
         </section>
 
-        <!-- About Me Page Content -->
-        <section id="about" class="page">
-            <div class="container">
-                <h2>About Me</h2>
-                <div class="about-content">
-                    <div class="about-image">
-                        <img src="profile.jpg" alt="Nvi Mai">
-                    </div>
-                    <div class="about-text">
-                        <p>My name is Nvi, which is Nhat Vietnam. I'm a passionate developer with interests in web technologies and creative coding.</p>
-                        <p>I enjoy solving complex problems and creating user-friendly applications that make a difference.</p>
-                    </div>
-                </div>
-                <div class="video-section">
-                    <h3>Introduction Video</h3>
-                    <video controls poster="video-poster.jpg">
-                        <source src="intro-video.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Page Content -->
-        <section id="projects" class="page">
-            <div class="container">
-                <h2>My Projects</h2>
-                <div class="projects-grid">
-                    <article class="project-card">
-                        <h3>E-Commerce Website</h3>
-                        <p>Developed a full-featured e-commerce platform with user authentication, product catalog, and payment integration.</p>
-                    </article>
-                    <article class="project-card">
-                        <h3>Task Management App</h3>
-                        <p>Created a responsive task management application with drag-and-drop functionality and real-time updates.</p>
-                    </article>
-                    <article class="project-card">
-                        <h3>Weather Dashboard</h3>
-                        <p>Built a weather dashboard that displays current conditions and forecasts using a third-party API.</p>
-                    </article>
-                    <article class="project-card">
-                        <h3>Portfolio Website</h3>
-                        <p>Designed and implemented a responsive portfolio website to showcase my projects and skills.</p>
-                    </article>
-                    <article class="project-card">
-                        <h3>Data Visualization Tool</h3>
-                        <p>Developed an interactive data visualization tool for analyzing and presenting complex datasets.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Me Page Content -->
-        <section id="contact" class="page">
-            <div class="container">
-                <h2>Contact Me</h2>
-                <p>Send me your questions, comments and project related queries!</p>
-                <form id="contact-form">
-                    <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Your Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Cell No.</label>
-                        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder="Question, comment or query..." required></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="captcha">*What is 2+2? (So I know you aren't a robot)</label>
-                        <input type="text" id="captcha" name="captcha" required>
-                    </div>
-                    <button type="submit" class="btn">Submit</button>
-                </form>
-            </div>
+        <section id="intro">
+            <h2>What I Do</h2>
+            <p>I create innovative solutions through code and design. Explore my work and get to know me better!</p>
+            <p>Navigate through the menu above to learn more about me and my projects.</p>
         </section>
     </main>
 
-    <!-- Footer -->
     <footer>
-        <div class="container">
-            <p>Contact: nvi.mai@example.com</p>
-            <p>&copy; 2022 by Nvi Mai with 💤</p>
-        </div>
+        <p>Contact: nvi.portfolio@email.com</p>
+        <p>&copy; 2022 by Nvi Mai with 💤</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
